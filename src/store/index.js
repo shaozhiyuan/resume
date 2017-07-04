@@ -22,30 +22,25 @@ export default new Vuex.Store({
           {field: 'contacts', icon: 'phone'}
         ],
         profile: {
-          name: '方某摩',
-          city: '大城市',
+          name: '邵志远',
+          city: '金华',
           title: '首席少赚',
           birthday: '1995-3-13'
         },
         workHistory: [
           {company: '公司', content: '我的第二份工作是'},
-          {company: '公司', content: '我的第二份工作是'}
         ],
         education: [
           {school: '河南城建学院', content: '文字'},
-          {school: 'AL', content: '文字'}
         ],
         projects: [
           {name: 'project A', content: '文字'},
-          {name: 'project A', content: '文字浮动'}
         ],
         awards: [
           {name: '再来10瓶', content: '连续获得10次再来一瓶'},
-          {name: '三好学生', content: '文字'}
         ],
         contacts: [
           {contact: 'phone', content: '13812345678'},
-          {contact: 'qq', content: '12345678'},
         ]
       }
   },
@@ -69,6 +64,13 @@ export default new Vuex.Store({
     removeUser(state){
       console.log("登出")
       state.user.id = ''
+    },
+    append(state,payload){
+      let newInput = {
+        name: "",
+        content: ''
+      }
+      payload.field.push(newInput)
     }
   }
 })

@@ -16,9 +16,11 @@
               <div class="resumeField" v-for="(value,key) in subitem">
                 <label> {{key}}</label>
                 <input type="text" :value="value" @input="changeResumeField(`${item.field}.${i}.${key}`, $event.target.value)">
+
               </div>
               <hr>
             </div>
+            <button class="append" @click="appendInput(resume[item.field],resume[item.field][0])">增加</button>
           </div>
           <div v-else class="resumeField" v-for="(value,key) in resume[item.field]">
             <label>{{key}}</label>
@@ -56,6 +58,12 @@ export default{
       this.$store.commit('updateResume',{
         path,
         value
+      })
+    },
+    appendInput(field,key){
+      this.$store.commit('append',{
+        field,
+        key
       })
     }
   }
@@ -121,6 +129,16 @@ export default{
     border: none;
     border-top: 1px solid #ddd;
     margin: 24px 0;
+  }
+  .append {
+    display: block;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    cursor: pointer;
   }
 
 </style>
