@@ -50,6 +50,14 @@ https://github.com/shaozhiyuan/react
 
 > 基本了解了React.js的开发项目方式，redux基本的运行方式。
 
+[Node.js便利贴](https://github.com/shaozhiyuan/node/tree/master/express-sticky-note)
+
+> 简介该项目是一个在线的便利贴备忘录，支持github登入登出，增删改查，数据库同步，自动瀑布流布局等功能
+
+> 技术架构:采用express+suquelize+session+node.js+router+ejs+less、模块化开发、中间件等
+
+> 项目收获：基本理解前后端交互过程，对中间件开发有了新一层理解
+
 [todoList Vue版](https://github.com/shaozhiyuan/vuetodo)
 
 > 技术架构：Vue + webpack +es6
