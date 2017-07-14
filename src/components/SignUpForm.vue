@@ -10,7 +10,7 @@
         <input type="password" v-model="formData.password" required>
       </div>
       <div class="actions">
-        <input type="submit" value="提交">
+        <input type="submit" value="提交" class="btn">
         <span class="errorMessage">{{errorMessage}}</span>
       </div>
     </form>
@@ -55,3 +55,4 @@ export default {
 
 
 </script>
+

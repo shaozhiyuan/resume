@@ -58,7 +58,8 @@ export default {
   >input {
     margin-bottom: 20px;
     height: 30px;
-    background-color: rgba(0,0,0,0.2);
+    border: none;
+    background: red;
   }
   >label {
     line-height: 30px;
@@ -69,7 +70,7 @@ export default {
     display: block;
     width: 60px;
     height: 25px;
-    background-color: rgba(0,0,0,0.4);
+    background-color: #f6556c;
     color: white;
     border-radius: 3px;
     border: none;

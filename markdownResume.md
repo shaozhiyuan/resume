@@ -72,6 +72,11 @@ https://github.com/shaozhiyuan/react
 
 > 项目收获：了解企业站开发模式，学会webpack模块化管理代码
 
+插件：[轮播](https://shaozhiyuan.github.io/blog/carousel.html) https://github.com/shaozhiyuan/blog/blob/master/carousel.html
+
+
+  [木桶流布局](https://shaozhiyuan.github.io/blog/Casklayout.html)
+
 ## 技能描述
 
 1.熟悉HTML、CSS、页面架构和布局，对Web标准和标签语义化有深入理解

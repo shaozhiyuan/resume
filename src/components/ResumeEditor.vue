@@ -74,14 +74,14 @@ export default{
 
 <style lang="scss" scoped>
   #resumeEditor {
-    background:#ffffff;
+    background: #f6f6f6;
     box-shadow:0 1px 3px 0 rgba(0,0,0,0.25);
     display: flex;
     flex-direction: row;
     overflow: auto;
     >nav {
       width: 80px;
-      background: black;
+      background: #f6556c;
       color: white;
       >ol {
         >li {

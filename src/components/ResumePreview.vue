@@ -98,7 +98,7 @@ export default{
 
 <style lang="scss">
   #resumePreview {
-    background:#ffffff;
+    background: #f6f6f6;
     box-shadow:0 1px 3px 0 rgba(0,0,0,0.25);
     padding: 3em;
     color: #333;
@@ -120,10 +120,11 @@ export default{
     }
     section {
       >h2:first-child{
-        background: #ddd;
+        background: #f6556c;
         display: inline-block;
         padding: .2em;
         margin-bottom: .5em;
+        color: white;
       }
     }
     section[data-name="profile"] {

@@ -39,17 +39,23 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     border-radius: 3px;
+
    }
    .dialog{
      background: white;
-     min-height: 4em;
-     min-width: 10em;
+     min-height: 12em;
+     min-width: 18em;
+     border-radius: 3px;
+     background: #f6f6f6;
      > header{
        padding: 16px;
        display: flex;
        justify-content: space-between;
+       > .close{
+               cursor: pointer;
+            }
      }
+
      > main{
        padding: 16px;
      }
