@@ -75,7 +75,11 @@ https://github.com/shaozhiyuan/react
 插件：[轮播](https://shaozhiyuan.github.io/blog/carousel.html) https://github.com/shaozhiyuan/blog/blob/master/carousel.html
 
 
-  [木桶流布局](https://shaozhiyuan.github.io/blog/Casklayout.html)
+  [木桶流布局](https://shaozhiyuan.github.io/blog/Casklayout.html)  https://github.com/shaozhiyuan/blog/blob/master/Casklayout.html
+
+  [瀑布流布局](https://shaozhiyuan.github.io/blog/Waterfalllayout.html) https://github.com/shaozhiyuan/blog/blob/master/Waterfalllayout.html
+
+  [懒加载](https://shaozhiyuan.github.io/blog/Lazyload.html) https://github.com/shaozhiyuan/blog/blob/master/Lazyload.html
 
 ## 技能描述
 
