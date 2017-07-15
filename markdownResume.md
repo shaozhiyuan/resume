@@ -97,7 +97,7 @@ https://github.com/shaozhiyuan/react
 
 6.了解React,redux，生命周期，可以进行一些简单的小规模项目开发。
 
-7.能够使用Webpack前端构建工具搭建前端开发环境
+7.能够使用Webpack、gulp、requirejs前端构建工具搭建前端开发环境
 
 8.熟悉Yarn & Npm & Git ，了解Node.js。
 
