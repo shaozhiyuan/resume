@@ -42,7 +42,7 @@
 
 
     <section data-name="projects" v-show="resume.projects">
-          <h2>项目精力</h2>
+          <h2>项目经历</h2>
           <ol>
             <li v-for="item in resume.projects">
               <h3>{{ item.name }}</h3>
@@ -56,7 +56,7 @@
       <h2>获奖情况</h2>
       <ol>
         <li v-for="item in resume.awards">
-          <h3>{{ item.awards }}</h3>
+          <h3>{{item.name}}</h3>
           <p v-show="item.content"> {{item.content}}</p>
         </li>
       </ol>

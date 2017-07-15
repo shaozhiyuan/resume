@@ -1,13 +1,14 @@
 <template>
   <div>
-    <div class="page">
-      <header>
-        <Topbar/>
+    <div class="page" v-bind:class="{ previewMode: previewMode }">
+      <header id="header">
+        <Topbar class="topbar"   v-on:preview="preview"/>
       </header>
-      <main>
-        <ResumeEditor/>
-        <ResumePreview/>
+      <main id="main">
+        <ResumeEditor class="editor"/>
+        <ResumePreview class="preview"/>
       </main>
+      <button id="exitPreview" v-on:click="exitPreview">退出预览</button>
     </div>
   </div>
 </template>
@@ -27,6 +28,9 @@
   import getAVUser from './lib/getAVUser'
 
 export default {
+  data(){
+    return {previewMode: false}
+  },
   name: 'app',
   store,
   components: { Topbar, ResumeEditor, ResumePreview},
@@ -38,11 +42,21 @@ export default {
     }
     this.$store.commit('initState',state)
     this.$store.commit('setUser', getAVUser())
+  },
+  methods: {
+    exitPreview(){
+      this.previewMode = false
+   },
+    preview(){
+      console.log("preview启动")
+      this.previewMode = true
+      console.log("wan")
+    }
   }
 }
 </script>
 
-<style>
+<style lang="scss">
 .page {
   height: 100vh;
   display: flex;
@@ -79,4 +93,34 @@ export default {
     vertical-align: -0.1em;
     font-size: 16px;
    }
+   .previewMode>#header{
+     display: none;
+   }
+   .previewMode>#main>.editor{
+     display: none;
+   }
+   .previewMode .preview{
+     max-width: 800px;
+     margin: 32px auto;
+     overflow: none;
+   }
+   #exitPreview{
+     display: none;
+   }
+   .previewMode #exitPreview{
+     display: inline-block;
+     position: fixed;
+     right: 16px;
+     top: 16px;
+     height: 35px;
+     border: none;
+     width: 80px;
+     background:#f6556c;
+     cursor: pointer;
+     border-radius: 3px;
+     &:hover {
+      box-shadow: 0 2px 3px 0 rgba(0,0,0,0.25);
+     }
+   }
+
 </style>

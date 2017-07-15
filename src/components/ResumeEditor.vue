@@ -16,7 +16,6 @@
               <div class="resumeField" v-for="(value,key) in subitem">
                 <label> {{key}}</label>
                 <input type="text" :value="value" @input="changeResumeField(`${item.field}.${i}.${key}`, $event.target.value)">
-
               </div>
               <hr>
             </div>
@@ -61,10 +60,7 @@ export default{
       })
     },
     appendInput(field,key){
-      this.$store.commit('append',{
-        field,
-        key
-      })
+      this.$store.commit('append',{field,key})
     }
   }
 }
@@ -100,6 +96,7 @@ export default{
     }
     >.panels {
       flex-grow: 1;
+      overflow: row;
       >li {
         padding: 24px;
       }
@@ -136,7 +133,7 @@ export default{
     height: 30px;
     border: none;
     border-radius: 3px;
-    background: rgba(0,0,0,0.6);
+    background: #f6556c;
     color: white;
     cursor: pointer;
   }

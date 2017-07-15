@@ -72,14 +72,16 @@ https://github.com/shaozhiyuan/react
 
 > 项目收获：了解企业站开发模式，学会webpack模块化管理代码
 
-插件：[轮播](https://shaozhiyuan.github.io/blog/carousel.html) https://github.com/shaozhiyuan/blog/blob/master/carousel.html
+插件：
+
+> [轮播](https://shaozhiyuan.github.io/blog/carousel.html) https://github.com/shaozhiyuan/blog/blob/master/carousel.html
 
 
-  [木桶流布局](https://shaozhiyuan.github.io/blog/Casklayout.html)  https://github.com/shaozhiyuan/blog/blob/master/Casklayout.html
+>  [木桶流布局](https://shaozhiyuan.github.io/blog/Casklayout.html)  https://github.com/shaozhiyuan/blog/blob/master/Casklayout.html
 
-  [瀑布流布局](https://shaozhiyuan.github.io/blog/Waterfalllayout.html) https://github.com/shaozhiyuan/blog/blob/master/Waterfalllayout.html
+>  [瀑布流布局](https://shaozhiyuan.github.io/blog/Waterfalllayout.html) https://github.com/shaozhiyuan/blog/blob/master/Waterfalllayout.html
 
-  [懒加载](https://shaozhiyuan.github.io/blog/Lazyload.html) https://github.com/shaozhiyuan/blog/blob/master/Lazyload.html
+>  [懒加载](https://shaozhiyuan.github.io/blog/Lazyload.html) https://github.com/shaozhiyuan/blog/blob/master/Lazyload.html
 
 ## 技能描述
 
@@ -91,7 +93,7 @@ https://github.com/shaozhiyuan/react
 
 4.熟悉并能使用Scss，less和Stylus，postcss预处理器编写前端样式
 
-5.了解Vue,了解其相应响应式原理，生命周期，组件通信，虚拟DOM。
+5.熟悉Vue,熟悉其相应响应式原理，生命周期，组件通信，虚拟DOM。
 
 6.了解React,redux，生命周期，可以进行一些简单的小规模项目开发。
 

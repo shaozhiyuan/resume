@@ -11,6 +11,7 @@
           <a class="button primary" href="#" @click.prevent="signUpDialogVisible=true"> 注册</a>
           <a class="button" href="#" @click="signInDialogVisible = true">登入</a>
         </div>
+        <button class="button" @click="preview">预览</button>
       </div>
     </div>
     <MyDialog title="注册" :visible="signUpDialogVisible" @close="signUpDialogVisible=false">
@@ -59,6 +60,9 @@ export default{
     signOut(){
       AV.User.logOut()
       this.$store.commit('removeUser')
+    },
+    preview(){
+      this.$emit('preview')
     }
   }
 }

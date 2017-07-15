@@ -28,16 +28,16 @@ export default new Vuex.Store({
           birthday: '1995-3-13'
         },
         workHistory: [
-          {company: '公司', content: '我的第二份工作是'},
+          {company: '公司', content: '工作内容'},
         ],
         education: [
-          {school: '河南城建学院', content: '文字'},
+          {school: '学校', content: '描述'},
         ],
         projects: [
-          {name: 'project A', content: '文字'},
+          {name: '项目名称', content: '描述'},
         ],
         awards: [
-          {name: '再来10瓶', content: '连续获得10次再来一瓶'},
+          {name: '奖项名称', content: '连续获得10次再来一瓶'},
         ],
         contacts: [
           {contact: 'phone', content: '13812345678'},
@@ -66,10 +66,14 @@ export default new Vuex.Store({
       state.user.id = ''
     },
     append(state,payload){
-      let newInput = {
-        name: "",
-        content: ''
+      console.log(payload.key)
+      var newInput = {}
+      for (var i in payload.key){
+        newInput[i] = payload.key[i]
+        newInput[i] = ""
       }
+
+
       payload.field.push(newInput)
     }
   }
