@@ -52,9 +52,9 @@ https://github.com/shaozhiyuan/react
 
 [Node.js便利贴](https://github.com/shaozhiyuan/node/tree/master/express-sticky-note)
 
-> 简介该项目是一个在线的便利贴备忘录，支持github登入登出，增删改查，数据库同步，自动瀑布流布局等功能
+> 简介：该项目是一个基于 nodejs 的单页应用项目，支持 github 登入，增删改查，数据同步，自动瀑布流排版、鼠标移动等功能。
 
-> 技术架构:采用express+suquelize+session+node.js+router+ejs+less、模块化开发、中间件等
+> 技术架构:前端上采用 js 组件封装+发布订阅模式+webpack+less，后端则使用nodejs+express+sequelize+路由+中间件。
 
 > 项目收获：基本理解前后端交互过程，对中间件开发有了新一层理解
 
@@ -66,11 +66,11 @@ https://github.com/shaozhiyuan/react
 
 [企业站实现](https://shaozhiyuan.github.io/blog/%E4%BC%81%E4%B8%9A%E5%AE%9E%E6%88%98.html)
 
-> 简介：一个初期写的企业站，之后用webpack打包了一下组件。
+> 简介：一个使用webapck模块化开发的个人企业占站
 
 > 问题：ajax获取的后端数据是http协议，无法在https下获取
 
-> 项目收获：了解企业站开发模式，学会webpack模块化管理代码
+> 项目收获：了解企业站开发模式，webpack模块化管理代码
 
 插件：
 
@@ -99,7 +99,7 @@ https://github.com/shaozhiyuan/react
 
 7.能够使用Webpack、gulp、requirejs前端构建工具搭建前端开发环境
 
-8.熟悉Yarn & Npm & Git ，了解Node.js。
+8.熟悉 Yarn & Npm & Git ，能够使用 Node.js 搭配 Express 进行基本后台开发。
 
 9.了解掌握浏览器的调试，可快速寻找bug, 面向Google及Stack Overflow编程 :)。
 
