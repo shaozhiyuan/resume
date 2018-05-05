@@ -103,7 +103,7 @@ https://github.com/shaozhiyuan/react
 
 2.熟悉掌握原生Javascript，掌握重要概念如： 原型， 闭包， 作用域链， 面向对象， 异步流程控制等。能够根据面向对象思想利用JS/jQuery 封装 常用插件。
 
-3.熟悉ES6+语法，Promise，async await，箭头函数，解构赋值，decorator等。
+3.熟悉ES6+语法，Promise，Class，async await，箭头函数，解构赋值，decorator等。
 
 4.了解及HTML5新标签及CSS3样式及动画
 
