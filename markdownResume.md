@@ -105,7 +105,7 @@ https://github.com/shaozhiyuan/react
 
 3.熟悉ES6+语法，Promise，Class，async await，箭头函数，解构赋值，decorator等。
 
-4.了解及HTML5新标签及CSS3样式及动画
+4.了解及HTML5新标签及CSS3样式及动画，svg canvas echat可视化.
 
 5.熟悉并能使用Scss，less和Stylus，postcss预处理器编写前端样式
 
