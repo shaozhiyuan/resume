@@ -99,7 +99,7 @@ https://github.com/shaozhiyuan/react
 
 #####前端
 
-1.熟悉HTML、CSS、页面架构和布局，对Web标准和标签语义化有深入理解
+1.掌握HTML、CSS、页面架构和布局，对Web标准和标签语义化有深入理解
 
 2.熟悉掌握原生Javascript，掌握重要概念如： 原型， 闭包， 作用域链， 面向对象， 异步流程控制等。能够根据面向对象思想利用JS/jQuery 封装 常用插件。
 
@@ -125,7 +125,9 @@ https://github.com/shaozhiyuan/react
 
 13.熟悉Express 的使用、MVC 的概念、Mongodb/Mongoose实操、 Node 的异步机制、错误处理和日志处理
 
-14.有解决问题、钻研新技术的兴趣和能力，善于交流和表达
+14.了解数据结构、基础排序算法、检索算法、二叉树、动态规划。
+
+15.有解决问题、钻研新技术的兴趣和能力，善于交流和表达
 
 
 
