@@ -16,16 +16,56 @@
 
 ##工作经验
 
-2017-7 —— 至今   
- 杭州确信科技     
- 前端工程师——负责项目的界面开发以及业务实现，包括pc端的后台管理、指挥调度、视频调用等功能以及终端的任务模块
+目前就职：杭州确信科技有限公司  年限   1年  
 
-## 个人开源项目
-[IM即时通讯系统](https://github.com/shaozhiyuan/im)
+## 工作项目
+#### 融合通信指挥调度系统
 
 > 简介：
 
-> 此项目是基于环信IMSDK搭建一个IM即时通讯系统，拥有账号登入注册、添加删除好友、即时聊天的功能。
+> 一套融合pc端和移动端的融合通信系统，主要功能有虚拟程控电话网软交换、视频会议MCU、集群通信网指挥调度、私有化“微信”即时通信，通过系统建立移动化的视频监控网、实时的位置监控、实时轨迹追踪，外加多种常用的业务平台。
+
+> 项目职责：
+
+>1.独立设计编写可复用的前端工具库，使用到相关项目中后提升了开发效率，
+ 提高代码的复用性和可读性。
+ 2.独立完成后台管理界面的开发，利用ajax和后台进行数据交互，实现后台管理数据的增删改查，echarts和canvas制作图表加强对用户的数据展现，主要有系统开户、通讯日志、任务管理、参数设置等十数个后台界面。
+ 3.指挥调度界面的开发，和后端联调，使用webscoket实现即使通讯，引用video外部组件完成视频调用，视频会议MCU等功能
+ 4.独立负责移动端调度任务模块的前端开发，巡检任务详情、问题列表等功能，利用il8n实现多语言支持，。
+
+> 项目业绩：
+
+> 数据显示流畅，运行过程无bug，整体项目工期缩短10%。
+
+> 技术栈：
+
+> PC端技术栈为react + redux + react-redux + webpack + redux-thunk + less + jquery + websocket + canvas + echarts 
+  移动端技术栈为vue + vuex + vue-router + il8n
+
+[Acfun-spider推荐系统](https://github.com/shaozhiyuan/what-i-love)
+
+> 简介：
+
+> 此项目是基于对acfun文章的爬取为背景，然后根据用户的兴趣爱好进行相关文章的推送的功能，\
+>1.注册登入后即可进行推送，\
+2.使用jsonwebtoken记录用户状态，\
+3.使用mongodb持久化数据，\
+4.使用pm2管理进程。
+
+> 技术架构：
+
+> node + Express + Mongodb/mongoose + redis + PM2 + winston + jsonwebtoken
+
+
+[IM即时通讯系统](https://github.com/shaozhiyuan/im)
+
+
+> 简介：
+
+> 此项目是基于环信IMSDK搭建一个IM即时通讯系统\
+1.注册登入后即可使用\
+2.可查看历史纪录消息\
+3.可以添加删除好友，即时聊天
 
 > 技术架构：
 
@@ -33,44 +73,9 @@
 
 > 项目收获：
 
-> react的深入实践，以及es6的进一步理解，
+>  react的深入实践。
 
-[在线简历编辑器](https://shaozhiyuan.github.io/resume/dist/index.html#/)
-
-https://github.com/shaozhiyuan/resume
-> 简介：
-
-> 此项目是使用Vue2.0-cli实现的一个简历在线的编辑功能。清新简洁的交互系统，方便的实时预览功能能让用户快速入门操作。
-
-> 技术架构：
-
-> 此项目为了深入实践，尽可能采用最新的版Vue.js以及Vuex+Webpack+Scss的技术生态，js上则使用es6语法，此外，将用户登入注册信息放在leancloud上，追求最佳实践
-
-> 瑕疵：由于项目性质，完美运行只能在1024-1440的分辨率上
-
-> 项目收获：
-
-> vue.js以及vuex、scss的深入实践，以及es6的进一步理解，
-
-[todoList](https://shaozhiyuan.github.io/react/build/index.html)
-
-https://github.com/shaozhiyuan/react
-
-> 简介：
-
-> 该项目是一个轻量级单页在线待办事项管理应用，支持注册登录，支持增删改查，数据库同步等基本功能。
-
-> 技术架构：
-
-> 采用react组件开发，leancloud进行数据存储。技术栈为react+webpack+yarn+es6
-
-> 遇到问题：由于第一次使用React开发项目，因此React经验欠缺，开始组件编写缺乏规范，后来对深入React知识的深入，对组件进行了比较规范的重构
-
-> 项目收获：
-
-> 基本了解了React.js的开发项目方式，redux基本的运行方式。
-
-[Node.js便利贴](https://github.com/shaozhiyuan/node/tree/master/express-sticky-note)
+[Node备忘录](https://github.com/shaozhiyuan/node/tree/master/express-sticky-note)
 
 > 简介：该项目是一个基于 nodejs 的单页应用项目，支持 github 登入，增删改查，数据同步，自动瀑布流排版、鼠标移动等功能。
 
@@ -78,57 +83,38 @@ https://github.com/shaozhiyuan/react
 
 > 项目收获：基本理解前后端交互过程，对中间件开发有了新一层理解
 
-[企业站实现](https://shaozhiyuan.github.io/blog/%E4%BC%81%E4%B8%9A%E5%AE%9E%E6%88%98.html)
+>其余项目：\
+1.一个用vue写的简易500d.me\
+2.一个react+leancould的list\
+等详见github
 
-> 简介：一个个人企业站
-
-> 问题：ajax获取的后端数据是http协议，无法在https下获取
-
-插件：
-
-> [轮播](https://shaozhiyuan.github.io/blog/carousel.html) https://github.com/shaozhiyuan/blog/blob/master/carousel.html
-
-
->  [木桶流布局](https://shaozhiyuan.github.io/blog/Casklayout.html)  https://github.com/shaozhiyuan/blog/blob/master/Casklayout.html
-
->  [瀑布流布局](https://shaozhiyuan.github.io/blog/Waterfalllayout.html) https://github.com/shaozhiyuan/blog/blob/master/Waterfalllayout.html
-
->  [懒加载](https://shaozhiyuan.github.io/blog/Lazyload.html) https://github.com/shaozhiyuan/blog/blob/master/Lazyload.html
 
 ## 技能描述
 
 #####前端
 
-1.掌握HTML、CSS、页面架构和布局，对Web标准和标签语义化有深入理解
+1. 掌握 HTML、CSS、页面架构和布局，对 Web 标准和标签语义化有深入理解
 
-2.熟悉掌握原生Javascript，掌握重要概念如： 原型， 闭包， 作用域链， 面向对象， 异步流程控制等。能够根据面向对象思想利用JS/jQuery 封装 常用插件。
+2. 熟悉掌握原生 Javascript，包括 ES6+语法，熟悉设计模式，喜欢rxjs迭代器+观察者的方式。
 
-3.熟悉ES6+语法，Promise，Class，async await，箭头函数，解构赋值，decorator等。
+3. 熟悉 HTML5 新标签及 CSS3 样式及动画，了解svg canvas echat 可视化。
 
-4.了解及HTML5新标签及CSS3样式及动画，svg canvas echat可视化.
+4. 熟悉并能使用 Scss，less 和 Stylus，postcss 预处理器编写前端样式。
 
-5.熟悉并能使用Scss，less和Stylus，postcss预处理器编写前端样式
+5. 熟悉 Vue及其相关生态系统。
 
-6.熟悉Vue,熟悉其相应响应式原理，生命周期，组件通信，虚拟DOM。
+6. 熟悉 React，redux，React-Router，Redux-thunk。
 
-7.熟悉React,redux，React-Router，生命周期，Redux-thunk，中间件及其diff算法 
+7. 熟悉 Nodejs， 及其Koa2、Express 框架；可利用 node 辅助前端开发，熟悉 pm2、webpack、gulp、parcel等生态工具。
 
-8.能够使用Webpack、gulp、requirejs前端构建工具搭建前端开发环境
+8. 了解移动端开发与微信小程序开发。
 
-9.了解移动端开发与微信小程序开发.
 
-10.掌握浏览器的调试，可快速寻找bug, 面向Google及Stack Overflow编程 :)。
+9. 熟悉使用 ps.AI 等 UI 工具，能很好的和 UI 进行沟通及对像素的精确体现。
 
-11.熟悉使用ps.AI等UI工具，能很好的和UI进行沟通及对像素的精确体现。
+10. 熟悉 Yarn  &  Npm & Git。
 
-12.熟悉 Yarn & Npm & Git。
-
-13.熟悉Express 的使用、MVC 的概念、Mongodb/Mongoose实操、 Node 的异步机制、错误处理和日志处理
-
-14.了解数据结构、基础排序算法、检索算法、二叉树、动态规划。
-
-15.有解决问题、钻研新技术的兴趣和能力，善于交流和表达
-
+11. 了解数据结构、基础排序算法、检索算法、二叉树、动态规划。
 
 
 ## 关于我
