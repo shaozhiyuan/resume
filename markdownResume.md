@@ -41,7 +41,7 @@
 > PC端技术栈为react + redux + react-redux + webpack + redux-thunk + less + jquery + websocket + canvas + echarts 
   移动端技术栈为vue + vuex + vue-router + il8n
   
-### 开源项目  
+## 开源项目  
 
 [Acfun-spider推荐系统](https://github.com/shaozhiyuan/what-i-love)
 
@@ -92,8 +92,6 @@
 
 ## 技能描述
 
-#####前端
-
 1. 掌握 HTML、CSS、页面架构和布局，对 Web 标准和标签语义化有深入理解
 
 2. 熟悉掌握原生 Javascript，包括 ES6+语法，熟悉设计模式，喜欢rxjs迭代器+观察者的方式。
@@ -109,7 +107,6 @@
 7. 熟悉 Nodejs， 及其Koa2、Express 框架；可利用 node 辅助前端开发，熟悉 pm2、webpack、gulp、parcel等生态工具。
 
 8. 了解移动端开发与微信小程序开发。
-
 
 9. 熟悉使用 ps.AI 等 UI 工具，能很好的和 UI 进行沟通及对像素的精确体现。
 
