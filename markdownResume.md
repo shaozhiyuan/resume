@@ -94,7 +94,7 @@
 
 1. 掌握 HTML、CSS、页面架构和布局，对 Web 标准和标签语义化有深入理解
 
-2. 熟悉掌握原生 Javascript，包括 ES6+语法，熟悉设计模式，喜欢rxjs迭代器+观察者的方式。
+2. 熟悉掌握原生 Javascript，包括 ES6+语法，熟悉常用设计模式，喜欢rxjs迭代器+观察者的模式。
 
 3. 熟悉 HTML5 新标签及 CSS3 样式及动画，了解svg canvas echat 可视化。
 
