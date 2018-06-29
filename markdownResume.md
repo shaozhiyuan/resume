@@ -43,7 +43,7 @@
   
 ## 开源项目  
 
-[Acfun-spider推荐系统](https://github.com/shaozhiyuan/what-i-love)
+[Acfun-spider推荐系统](https://github.com/shaozhiyuan/whta-i-love)
 
 > 简介：
 
