@@ -12,7 +12,7 @@
 
 > github地址：https://github.com/shaozhiyuan
 
-> 简书博客地址：http://www.jianshu.com/u/124990b11595
+> 博客地址：http://www.jianshu.com/u/124990b11595
 
 ## 工作经验
 
